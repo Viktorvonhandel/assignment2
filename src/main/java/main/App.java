@@ -19,14 +19,14 @@ public class App {
                 int choice = Integer.parseInt(choiceStr);
                 switch (choice) {
                     case 1:
-                        System.out.print("Mitä siili sanoo? ");
+                        System.out.print("Mitä siili sanoo:\n");
                         String text = sc.nextLine();
                         siili.speak(text);
                         break;
                     case 2:
                         System.out.println("Anna siilin nimi:");
                         String newName = sc.nextLine();
-                        System.out.println("Anna uusi ikä:");
+                        System.out.println("Anna siilin ikä:");
                         int newAge = Integer.parseInt(sc.nextLine());
                         siili = new Hedgehog(newName, newAge);
                         break;
