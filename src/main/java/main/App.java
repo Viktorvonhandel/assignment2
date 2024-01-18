@@ -31,7 +31,7 @@ public class App {
                         siili = new Hedgehog(newName, newAge);
                         break;
                     case 3:
-                        System.out.print("Kuinka monta kierrosta?\n ");
+                        System.out.print("Kuinka monta kierrosta?\n");
                         int kerrat = Integer.parseInt(sc.nextLine());
                         siili.run(kerrat);
                         break;
