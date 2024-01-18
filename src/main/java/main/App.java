@@ -12,7 +12,7 @@ public class App {
         while (!exit) {
             System.out.println("1) Pistä siili puhumaan, 2) Luo uusi siili, 3) Juoksuta siiliä, 0) Lopeta ohjelma");
 
-            System.out.print("Valitse toiminto: ");
+           
             String choiceStr = sc.nextLine();
 
             try {
